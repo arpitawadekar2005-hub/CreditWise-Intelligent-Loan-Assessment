@@ -3,6 +3,10 @@ import pickle
 import numpy as np
 
 # Load model
+import os
+
+st.write("Files in directory:", os.listdir())
+
 model = pickle.load(open("model.pkl", "rb"))
 
 st.title("🏦 CreditWise Loan Approval System")
