@@ -100,19 +100,45 @@ The target variable is:
 
 ---
 
-# Exploratory Data Analysis
+## Exploratory Data Analysis (EDA)
 
-Performed exploratory analysis to understand:
+### 1. Loan Approval Distribution
 
-* Income distributions
-* Credit score patterns
-* Loan approval trends
-* Relationship between financial factors and loan approval
-* Feature correlations
+This plot shows the distribution of approved and rejected loan applications.
 
-(Add graphs/screenshots here)
+![Loan Approval Distribution](Images/loan_approval_distribution.png)
 
 ---
+
+### 2. Education Level Distribution
+
+This visualization shows the number of Graduate and Non-Graduate applicants in the dataset.
+
+![Education Level Distribution](Images/education_level_distribution.png)
+
+---
+
+### 3. Correlation Heatmap
+
+The heatmap illustrates the correlation between numerical features used for loan approval prediction.
+
+![Correlation Heatmap](Images/correlation_heatmap.png)
+
+---
+
+### 4. Feature Analysis
+
+Boxplots comparing Applicant Income, Credit Score, Debt-to-Income Ratio (DTI), and Savings against loan approval status.
+
+![Feature Analysis](Images/feature_analysis.png)
+
+---
+
+### 5. Credit Score vs Loan Approval
+
+This histogram highlights the relationship between applicant credit scores and loan approval outcomes.
+
+![Credit Score vs Loan Approval](Images/credit_score_vs_approval.png)
 
 # Feature Engineering
 
