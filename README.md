@@ -235,20 +235,6 @@ Loan Approval Prediction
 
 ---
 
-# Repository Structure
-
-```text
-CreditWise-Intelligent-Loan-Assessment
-│
-├── Code
-├── Data
-├── Images
-├── credit_wise.ipynb
-└── README.md
-```
-
----
-
 # Future Improvements
 
 * Explainable AI
