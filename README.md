@@ -191,17 +191,42 @@ The following machine learning models were trained and evaluated:
 
 # Model Evaluation
 
-Models were evaluated using:
+After performing feature engineering and training the Naive Bayes classifier, the model achieved the following performance on the test dataset.
 
-* Accuracy
-* Precision
-* Recall
-* F1 Score
-* Confusion Matrix
+## Performance Metrics
 
-(Add screenshots of results here)
+| Metric | Score |
+|--------|-------:|
+| Accuracy | **86.50%** |
+| Precision | **78.33%** |
+| Recall | **77.05%** |
+| F1-Score | **77.69%** |
 
----
+## Confusion Matrix
+
+| Actual \ Predicted | Rejected (No) | Approved (Yes) |
+|-------------------|--------------:|---------------:|
+| **Rejected (No)** | 126 | 13 |
+| **Approved (Yes)** | 14 | 47 |
+
+```text
+Confusion Matrix
+
+                 Predicted
+               No       Yes
+Actual No      126       13
+Actual Yes      14       47
+```
+
+### Interpretation
+
+- **Accuracy (86.50%)** indicates that the model correctly classified the majority of loan applications.
+- **Precision (78.33%)** means that when the model predicts a loan will be approved, it is correct about 78% of the time.
+- **Recall (77.05%)** shows that the model successfully identifies around 77% of the actual approved loan applications.
+- **F1-Score (77.69%)** provides a balanced measure of precision and recall, demonstrating reliable overall classification performance.
+- The confusion matrix shows that the model correctly classified **126 rejected** and **47 approved** loan applications while making **27 misclassifications**.
+
+Overall, the Naive Bayes classifier demonstrated strong performance after feature engineering and is suitable for predicting loan approval based on applicant financial and demographic information.
 
 # Final Model
 
