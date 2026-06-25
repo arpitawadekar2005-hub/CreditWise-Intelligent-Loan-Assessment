@@ -277,7 +277,7 @@ Loan Approval Prediction
 
 ---
 
-## 📚 Technical Learnings
+##  Technical Learnings
 
 Through this project, I gained hands-on experience in:
 
@@ -288,7 +288,7 @@ Through this project, I gained hands-on experience in:
 - Assessed model performance using **Accuracy, Precision, Recall, F1-Score, and Confusion Matrix**.
 - Saved and loaded the trained model using **Pickle (`model.pkl`)**.
 
-## 💡 Skills Developed
+##  Skills Developed
 
 **Machine Learning:** Naive Bayes, Model Evaluation, Feature Engineering  
 **Data Analysis:** EDA, Data Preprocessing, Data Visualization, Statistical Analysis  
