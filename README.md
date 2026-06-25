@@ -105,6 +105,9 @@ The target variable is:
 ### 1. Loan Approval Distribution
 
 This plot shows the distribution of approved and rejected loan applications.
+- Around **70.2%** of loan applications were rejected, while **29.8%** were approved.
+- The dataset is **imbalanced**, with significantly more rejected loans than approved loans.
+- This imbalance was considered during model development to avoid biased predictions.
 
 ![Loan Approval Distribution](Images/loan_approval_distribution.png)
 
@@ -113,6 +116,9 @@ This plot shows the distribution of approved and rejected loan applications.
 ### 2. Education Level Distribution
 
 This visualization shows the number of Graduate and Non-Graduate applicants in the dataset.
+- Most applicants are **Graduates (722)**, whereas **278** applicants are Non-Graduates.
+- The dataset contains a much larger proportion of graduate applicants.
+- Education level may influence loan approval and was therefore included as one of the predictive features.
 
 ![Education Level Distribution](Images/education_level_distribution.png)
 
@@ -121,6 +127,10 @@ This visualization shows the number of Graduate and Non-Graduate applicants in t
 ### 3. Correlation Heatmap
 
 The heatmap illustrates the correlation between numerical features used for loan approval prediction.
+- Most features show **low correlation**, indicating minimal multicollinearity within the dataset.
+- **Credit Score** has a positive correlation with loan approval, suggesting higher scores improve approval chances.
+- **DTI Ratio** is negatively correlated with loan approval, meaning applicants with lower debt relative to income are more likely to receive approval.
+- The engineered features (**Credit_Score_sq** and **DTI_Ratio_sq**) capture additional non-linear relationships that improve model performance.
 
 ![Correlation Heatmap](Images/correlation_heatmap.png)
 
@@ -129,6 +139,10 @@ The heatmap illustrates the correlation between numerical features used for loan
 ### 4. Feature Analysis
 
 Boxplots comparing Applicant Income, Credit Score, Debt-to-Income Ratio (DTI), and Savings against loan approval status.
+- Applicants with **higher credit scores** have a greater likelihood of loan approval.
+- Approved applicants generally exhibit a **lower Debt-to-Income (DTI) Ratio**, indicating better repayment capacity.
+- Applicant income for approved loans is slightly higher on average, although income alone is not a decisive factor.
+- Savings show considerable overlap between approved and rejected applicants, suggesting they have a weaker standalone impact on loan approval.
 
 ![Feature Analysis](Images/feature_analysis.png)
 
@@ -137,6 +151,9 @@ Boxplots comparing Applicant Income, Credit Score, Debt-to-Income Ratio (DTI), a
 ### 5. Credit Score vs Loan Approval
 
 This histogram highlights the relationship between applicant credit scores and loan approval outcomes.
+- Loan approvals increase noticeably for applicants with **credit scores above approximately 680**.
+- Lower credit score ranges contain a higher proportion of rejected applications.
+- This indicates that **Credit Score is one of the strongest predictors** of loan approval.
 
 ![Credit Score vs Loan Approval](Images/credit_score_vs_approval.png)
 
