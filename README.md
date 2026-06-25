@@ -277,6 +277,17 @@ Loan Approval Prediction
 
 ---
 
+## 📚 Technical Learnings
+
+Through this project, I gained hands-on experience in:
+
+- Performed **Exploratory Data Analysis (EDA)** to identify data patterns, feature distributions, and correlations.
+- Applied **data preprocessing** techniques including missing value handling and one-hot encoding.
+- Implemented **feature engineering** by creating new features (`Credit_Score_sq`, `DTI_Ratio_sq`) to improve model performance.
+- Built and evaluated a **Naive Bayes Classification** model using Scikit-learn.
+- Assessed model performance using **Accuracy, Precision, Recall, F1-Score, and Confusion Matrix**.
+- Saved and loaded the trained model using **Pickle (`model.pkl`)**.
+
 # Future Improvements
 
 * Explainable AI
