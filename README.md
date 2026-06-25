@@ -234,9 +234,6 @@ Confusion Matrix
 Actual No      126       13
 Actual Yes      14       47
 ```
-- The model achieved **86.5% accuracy** on unseen test data.
-- Feature engineering improved the predictive performance of the Naive Bayes classifier.
-- The model effectively distinguishes between approved and rejected loan applications, making it suitable for intelligent loan eligibility assessment.
 
 
 ### Interpretation
