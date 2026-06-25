@@ -293,7 +293,6 @@ Through this project, I gained hands-on experience in:
 **Machine Learning:** Naive Bayes, Model Evaluation, Feature Engineering  
 **Data Analysis:** EDA, Data Preprocessing, Data Visualization, Statistical Analysis  
 **Programming:** Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
-**Deployment:** Streamlit, Pickle, Git, GitHub  
 **Professional Skills:** Problem Solving, Analytical Thinking, Data-Driven Decision Making
 
 # Future Improvements
