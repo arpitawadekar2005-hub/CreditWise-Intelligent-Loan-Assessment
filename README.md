@@ -1,4 +1,4 @@
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/942c4e91-83f8-4438-bcc1-f6d5c73246a5" />
 # 🏦 CreditWise – Intelligent Loan Assessment System
 
 ![Banner Image](Images/banner.png)
@@ -233,6 +233,10 @@ Confusion Matrix
                No       Yes
 Actual No      126       13
 Actual Yes      14       47
+
+- The model achieved **86.5% accuracy** on unseen test data.
+- Feature engineering improved the predictive performance of the Naive Bayes classifier.
+- The model effectively distinguishes between approved and rejected loan applications, making it suitable for intelligent loan eligibility assessment.
 ```
 
 ### Interpretation
